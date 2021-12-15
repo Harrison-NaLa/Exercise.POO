@@ -5,9 +5,8 @@ using System.Threading.Tasks;
 
 namespace Exercise.POO.Models
 {
-    public abstract class Acuaticos : Vehiculo
+    public abstract class Terrestre: Vehiculo
     {
-        public override Motores Motores { get => Motores.tres; }
-
+       public CantidadDeRuedas CantidadDeRuedas { get; set; }
     }
 }

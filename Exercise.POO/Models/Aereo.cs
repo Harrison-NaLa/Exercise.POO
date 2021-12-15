@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace Exercise.POO.Models
 {
-    public abstract class Terrestres: Vehiculo
+    public abstract class Aereo : Vehiculo
     {
-       public CantidadDeRuedas CantidadDeRuedas { get; set; }
+        public ClasificacionAerea ClasificacionAerea { get; set; }
     }
 }

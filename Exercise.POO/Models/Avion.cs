@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Exercise.POO.Models
 {
-    public abstract class Auto : Terrestre 
+    public abstract class Avion: Aereo
     {
     }
 }

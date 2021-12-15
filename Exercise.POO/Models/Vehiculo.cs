@@ -16,12 +16,12 @@ namespace Exercise.POO.Models
         public string Dimenciones { get; set; }
         public float Peso { get; set; }
         public abstract Motores Motores { get;} 
-
         public void ProducirSonido()
         {
             Console.Write("Estoy sonando");
         }
-        public abstract void Desplasarce();
-       
+        public abstract void Desplazarse();
+        public abstract TipoDeCombustion TipoDeCombustion { get; set; }
+        public abstract TipoDeDesplazamiento TipoDeDesplazamiento { get; }
     }
 }
